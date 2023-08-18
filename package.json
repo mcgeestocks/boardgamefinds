@@ -1,0 +1,38 @@
+{
+  "name": "boardgamefinds",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "preview": "next build && next start",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.16",
+    "@next/bundle-analyzer": "^13.4.12",
+    "@tailwindcss/typography": "^0.5.9",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@types/node": "18.16.1",
+    "@types/react": "18.2.0",
+    "@types/react-dom": "18.2.1",
+    "@vercel/analytics": "^1.0.0",
+    "autoprefixer": "10.4.14",
+    "dns": "^0.2.2",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "eslint-config-prettier": "^9.0.0",
+    "minisearch": "^6.1.0",
+    "mongodb": "^5.7.0",
+    "next": "13.4.1",
+    "next-themes": "^0.2.1",
+    "postcss": "8.4.23",
+    "prettier": "^3.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  }
+}
